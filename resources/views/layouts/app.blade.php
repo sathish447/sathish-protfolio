@@ -6,6 +6,8 @@
     <title>@yield('title', 'Portfolio')</title>
     <!-- Include Tailwind CSS via CDN for quick styling -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body class="bg-gray-100 text-gray-900">
     <nav class="bg-white shadow mb-8">

@@ -20,4 +20,19 @@
         </div>
         <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded">Send</button>
     </form>
+    
+    <div class="mt-10 max-w-md">
+        <h2 class="text-2xl font-semibold mb-4">Connect with me</h2>
+        <div class="flex justify-center space-x-6 text-4xl">
+            <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank" aria-label="LinkedIn" class="text-gray-600 hover:text-blue-700">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/YOUR_USERNAME" target="_blank" aria-label="GitHub" class="text-gray-600 hover:text-gray-900">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:you@example.com" aria-label="Email" class="text-gray-600 hover:text-red-600">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </div>
 @endsection
