@@ -11,16 +11,16 @@
     <link rel="stylesheet" href="{{ asset('css/theme.css') }}" />
 </head>
 <body class="min-h-screen" style="background-color: var(--bg); color: var(--text);">
-    <nav class="bg-white shadow mb-8">
+    <nav class="shadow mb-8" style="background-color: var(--bg);">
         <div class="container mx-auto px-4 py-4 flex justify-between items-center">
             <a href="{{ url('/') }}" class="text-xl font-semibold">My Portfolio</a>
             <div class="space-x-4 flex items-center">
-                <a href="{{ url('/') }}" class="hover:text-blue-500">Home</a>
-                <a href="{{ url('/about') }}" class="hover:text-blue-500">About</a>
-                <a href="{{ url('/skills') }}" class="hover:text-blue-500">Skills</a>
-                <a href="{{ url('/projects') }}" class="hover:text-blue-500">Projects</a>
-                <a href="{{ url('/resume') }}" class="hover:text-blue-500">Resume</a>
-                <a href="{{ url('/contact') }}" class="hover:text-blue-500">Contact</a>
+                <a href="{{ url('/') }}" class="hover:text-[var(--accent)]">Home</a>
+                <a href="{{ url('/about') }}" class="hover:text-[var(--accent)]">About</a>
+                <a href="{{ url('/skills') }}" class="hover:text-[var(--accent)]">Skills</a>
+                <a href="{{ url('/projects') }}" class="hover:text-[var(--accent)]">Projects</a>
+                <a href="{{ url('/resume') }}" class="hover:text-[var(--accent)]">Resume</a>
+                <a href="{{ url('/contact') }}" class="hover:text-[var(--accent)]">Contact</a>
                 <button onclick="toggleTheme()" aria-label="Toggle theme" class="ml-2 text-xl focus:outline-none">
                     <i id="theme-icon" class="fas fa-moon"></i>
                 </button>
@@ -32,7 +32,7 @@
         @yield('content')
     </main>
 
-    <footer class="bg-white mt-8 py-4 shadow-inner">
+    <footer class="mt-8 py-4 shadow-inner" style="background-color: var(--bg);">
         <div class="container mx-auto text-center text-sm">
             &copy; {{ date('Y') }} My Portfolio. All rights reserved.
         </div>
