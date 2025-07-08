@@ -13,7 +13,7 @@
 <body class="min-h-screen" style="background-color: var(--bg); color: var(--text);">
     <nav class="shadow mb-8" style="background-color: var(--bg);">
         <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-            <a href="{{ url('/') }}" class="text-xl font-semibold">My Portfolio</a>
+            <a href="{{ url('/') }}" class="text-xl font-semibold">Sathish Kumar</a>
             <div class="space-x-4 flex items-center">
                 <a href="{{ url('/') }}" class="hover:text-[var(--accent)]">Home</a>
                 <a href="{{ url('/about') }}" class="hover:text-[var(--accent)]">About</a>
@@ -34,7 +34,7 @@
 
     <footer class="mt-8 py-4 shadow-inner" style="background-color: var(--bg);">
         <div class="container mx-auto text-center text-sm">
-            &copy; {{ date('Y') }} My Portfolio. All rights reserved.
+            &copy; {{ date('Y') }} Sathish Kumar. All rights reserved.
         </div>
     </footer>
     <script src="{{ asset('js/theme.js') }}"></script>
