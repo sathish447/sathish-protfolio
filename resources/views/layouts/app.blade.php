@@ -13,10 +13,9 @@
 <body class="min-h-screen" style="background-color: var(--bg); color: var(--text);">
     <nav class="shadow mb-8" style="background-color: var(--bg);">
         <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-            <a href="{{ url('/') }}" class="text-xl font-semibold">Sathish Kumar</a>
+            <a href="{{ url('/') }}" class="text-xl font-semibold hover:underline hover:text-[var(--accent)] focus:underline">Sathish Kumar</a>
             <div class="space-x-4 flex items-center">
-                <a href="{{ url('/') }}" class="hover:text-[var(--accent)]">Home</a>
-                <a href="{{ url('/about') }}" class="hover:text-[var(--accent)]">About</a>
+                                <a href="{{ url('/about') }}" class="hover:text-[var(--accent)]">About</a>
                 <a href="{{ url('/skills') }}" class="hover:text-[var(--accent)]">Skills</a>
                 <a href="{{ url('/projects') }}" class="hover:text-[var(--accent)]">Projects</a>
                 <a href="{{ url('/resume') }}" class="hover:text-[var(--accent)]">Resume</a>
