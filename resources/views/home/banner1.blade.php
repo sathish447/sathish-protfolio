@@ -1,4 +1,4 @@
-@section('content')
+
 <section class="min-h-[70vh] flex items-center justify-center">
     <div class="w-full grid grid-cols-1 md:grid-cols-2 items-center gap-5">
         <!-- LEFT CONTENT -->
@@ -51,4 +51,3 @@
 
     </div>
 </section>
-@endsection
